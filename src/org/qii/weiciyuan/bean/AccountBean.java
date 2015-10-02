@@ -7,6 +7,8 @@ import java.io.Serializable;
  * Date: 12-7-30
  */
 public class AccountBean implements Serializable {
+	private int test = 10;
+	
     public String getUid() {
         return uid;
     }
@@ -77,5 +79,5 @@ public class AccountBean implements Serializable {
 
     private UserBean info;
 
-
+    
 }
